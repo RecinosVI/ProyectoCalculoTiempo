@@ -5,13 +5,11 @@ public class CalculaMinutos {
 
     public static void main(String[] args) {
 
-        LogicaDelNegocio logica = new LogicaDelNegocio();
+        LogicaDelNegocio calculo = new LogicaDelNegocio();
 
-        if (logica.validarParametros(args)) {
-
-            long segundos = logica.calcularSegundos(args);
-
-            System.out.println("Total en segundos: " + segundos);
+        if (calculo.validarParametros(args)) {
+            long resultado = calculo.calcularSegundos(args);
+            System.out.println("Total en segundos: " + resultado);
         }
     }
 }
