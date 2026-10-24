@@ -28,7 +28,7 @@ public class LogicaDelNegocio {
         int semana = Integer.parseInt(datos[1]);
         int dia = Integer.parseInt(datos[2]);
         int hora = Integer.parseInt(datos[3]);
-        int minuto = Integer.parseInt(datos[4]);
+        int minuto = Integer.parseInt(datos[4]); 
 
         long segundosMes = mes * 30L * 24 * 60 * 60;
         long segundosSemana = semana * 7L * 24 * 60 * 60;
@@ -43,4 +43,5 @@ public class LogicaDelNegocio {
     }
 }
 
-//Comentario de Prueba para commit
+//Comentario cambio del 23 de octubre
+
