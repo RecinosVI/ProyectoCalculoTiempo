@@ -9,7 +9,7 @@ public class CalculaMinutos {
 
         if (calculo.validarParametros(args)) {
             long resultado = calculo.calcularSegundos(args);
-            System.out.println("Total en segundos: " + resultado);
+            System.out.println("El total calculado en segundos es: " + resultado);
         }
     }
 }
